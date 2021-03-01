@@ -7,4 +7,8 @@ describe Mod do
   it "loads fixtures" do
     expect(fixture("use_case_1")).to match(/123456789\n\z/)
   end
+
+  it "reads file" do
+    #binding.pry
+  end
 end
