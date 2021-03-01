@@ -1,8 +1,7 @@
 class Neighborhood
-  def initialize(position:, field:)
-    @position = position
-    @x_coordinate = position[1]
-    @y_coordinate = position[0]
+  def initialize(cell:, field:)
+    @x_coordinate = cell.x_coordinate
+    @y_coordinate = cell.y_coordinate
     @field = field
   end
 
